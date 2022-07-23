@@ -1,0 +1,9 @@
+ls:
+  .ts: camelCase | PascalCase
+  .tsx: PascalCase
+  .dir: kebab-case
+
+ignore:
+  - node_modules
+  - .husky
+  - .git
